@@ -1,10 +1,13 @@
 /* TODO: Add typography */
 .lesson {
-    background-color: #fffacd;
+  color: darkblue;
+    background-color: #cec35e;
 }
 
 /* Fact 1 */
 #fact-1 {
+  color: darkblue;
+  background-color: #cec35e;
   font-weight: bolder;
 }
 
