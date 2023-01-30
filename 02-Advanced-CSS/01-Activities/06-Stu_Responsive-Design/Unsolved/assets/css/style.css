@@ -17,6 +17,7 @@ header {
 /* 
 What happens when we set the display property to flex? 
 TODO: Write your answer here 
+sets whether an element is treated as a block or inline element
 */
 nav {
   display: flex;
@@ -33,10 +34,12 @@ nav a {
 /* 
 What is the flex-wrap property? 
 TODO: Write your answer here 
+makes the element responsive
 */
 main {
   display: flex;
   flex-wrap: wrap;
+  flex: 1 0 400px;
 }
 
 aside {
@@ -57,6 +60,7 @@ footer {
 /* 
 What does the justify-content property do? 
 TODO: Write your answer here 
+defines how the browser distributes space between and around content
 */
 .products {
   flex: 4;
@@ -71,13 +75,15 @@ TODO: Write your answer here
 What is the flex property a shorthand property for?
 What is it doing here? 
 TODO: Write your answer here 
+horthand properties are CSS properties that let you set the values of multiple other CSS properties simultaneously
+uses flex grow, flex shrink and basis
 */
 .card {
   border-style: solid;
   border-width: 1px;
   border-radius: 10px;
   padding: 10px;
-  flex: 0 0 400px;
+  flex: 1 0 400px;
 }
 
 .card header {
@@ -96,6 +102,7 @@ TODO: Write your answer here
 What does the flex-direction property define?
 What is it doing here? 
 TODO: Write your answer here 
+The flex-direction CSS property sets how flex items are placed in the flex container defining the main axis and the direction (normal or reversed)
 */
 @media screen and (max-width: 768px) {
   main,
