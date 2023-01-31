@@ -86,6 +86,7 @@ button {
 }
 
 /* What does this CSS rule do? */
+/* add's a shaddow to the box whe you hover over it  */
 select {
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -113,6 +114,7 @@ select:hover, button:hover {
 }
 
 /* What does this pseudo-class mean? */
+/* changes border whne you type */
 .text-input:focus {
   border-right-width: 5px;
 }
