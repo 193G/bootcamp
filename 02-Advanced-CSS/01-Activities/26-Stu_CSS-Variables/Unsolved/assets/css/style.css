@@ -6,6 +6,11 @@ body {
   justify-content: flex-start;
 }
 
+:root {
+  --bg-color: #0076c6;
+  --color: red;
+}
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
@@ -19,8 +24,8 @@ h2 {
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background: var(--bg-color);
+  color: var(--color)
 }
 
 nav {
@@ -36,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: var(--bg-color)
 }
 
 main {
