@@ -1,4 +1,5 @@
 // TODO: Which element is the following line of code selecting?
+
 var carousel = document.querySelector(".carouselbox");
 // TODO: Which element is the following line of code selecting?
 var next = carousel.querySelector(".next");
@@ -40,6 +41,7 @@ next.addEventListener("click", function(event) {
 });
 
 // TODO: Describe the functionality of the following event listener.
+// prevents from doing something 
 prev.addEventListener("click", function(event) {
     // TODO: What would happen if we didn't add the following line of code?
   event.stopPropagation();

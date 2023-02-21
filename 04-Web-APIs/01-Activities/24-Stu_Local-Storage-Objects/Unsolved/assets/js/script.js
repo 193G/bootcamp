@@ -8,7 +8,10 @@ signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
   
   // TODO: Create user object from submissio
-
+var user = {
+  firstNameInput: firstNameInput.ariaValueMax.trim(),
+  
+}
   // TODO: Set new submission to local storage 
   
 });
